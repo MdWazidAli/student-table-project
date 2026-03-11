@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+body{
+font-family: Arial, sans-serif;
+background:#f2f2f2;
+margin:0;
+padding:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+width:70%;
+margin:auto;
+margin-top:50px;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 15px rgba(0,0,0,0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+text-align:center;
+margin-bottom:30px;
+color:#333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+justify-content:center;
+margin-bottom:20px;
 }
 
-.App-link {
-  color: #61dafb;
+input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+width:180px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+padding:10px 15px;
+border:none;
+border-radius:5px;
+background:#007bff;
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+.excel-btn{
+background:#28a745;
+}
+
+.excel-btn:hover{
+background:#1e7e34;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th,td{
+border:1px solid #ddd;
+padding:12px;
+text-align:center;
+}
+
+th{
+background:#007bff;
+color:white;
+}
+
+.edit-btn{
+background:#ffc107;
+color:black;
+margin-right:5px;
+}
+
+.edit-btn:hover{
+background:#e0a800;
+}
+
+.delete-btn{
+background:#dc3545;
+}
+
+.delete-btn:hover{
+background:#c82333;
 }
